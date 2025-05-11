@@ -15,5 +15,6 @@
 				"fileSystem": "addidas-storage"
 			}
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
