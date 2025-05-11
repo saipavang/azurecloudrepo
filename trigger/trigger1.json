@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/addidas-storage/blobs/'source/'",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/ef48c480-888f-4553-90d6-af4c857f57bb/resourceGroups/Learning_Training/providers/Microsoft.Storage/storageAccounts/learningaccountgsp",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
