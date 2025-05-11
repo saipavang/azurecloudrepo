@@ -1,0 +1,9 @@
+{
+	"name": "epam-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3c58bcc7-e951-40ef-9e3e-040b64a55f4e",
+		"tenantId": "4b8ce7fb-ec7b-4671-8b40-4a090596952a"
+	}
+}
